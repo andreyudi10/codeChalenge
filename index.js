@@ -8,7 +8,7 @@ function warnTheSheep(queue) {
         for (let i = 0 ; i < (balik.length) ; i++){
             // console.log('mycode',queue[i])
             // console.log(balik[i])
-            if(balik[i+1]==='sheep' && balik[i]==='wolf'){
+            if(balik[i]==='wolf'){
                 // console.log(i)
                 return 'Oi! Sheep number',i, 'You are about to be eaten by a wolf!'
             }
